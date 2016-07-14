@@ -8,20 +8,11 @@ package com.java.test;
 
 public class play {
     public static void main(String[] args) {
-
         test(4);
-
     }
-
-
-
     private static void test(Integer num) {
-        if (num != null) {
-            System.out.println("不为空");
-        }
-        else{
-            System.out.println("为空");
-        }
+        if (num != null) System.out.println("不为空");
+        else System.out.println("为空");
     }
 }
 
